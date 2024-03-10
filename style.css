@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.header {
+    color: aquamarine;
+    text-align: center;
+    font-size: 32px;
+    font-family:'Courier New', Courier, monospace
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay_text, ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+li:hover {
+    background-color: black;
+    opacity: 50%;
+    transition: 0.3s;
+    font-size: 18px;
+}
