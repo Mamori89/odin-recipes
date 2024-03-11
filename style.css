@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+.body_text {
+    color: aquamarine;
+    text-align: center;
+}
+
 .header {
     color: aquamarine;
     text-align: center;
@@ -14,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.overlay_text, ul, a {
+.overlay_text, ul, a, ol {
     list-style-type: none;
     text-decoration: none;
     color: aquamarine;
