@@ -5,6 +5,11 @@
     background-color: rgb(91, 153, 132);
 }
 
+.body_text {
+    color: aquamarine;
+    text-align: center;
+}
+
 .header {
     font-family: "Whisper", cursive, serif;
     font-size: 30px;
@@ -60,10 +65,11 @@
     justify-content: center;
 }
 
-.image-container {
-    order: 2;
-    margin: auto;
-    padding: 10px;
+.overlay_text, ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
