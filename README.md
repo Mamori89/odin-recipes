@@ -8,6 +8,8 @@ In this particular project i will create a recipe website.
 
  ***-> Use Git and GitHub (Add, commit, push, creating repos)***
 
+ ***-> Use CSS (Add boxes, move them using margin, padding and add Border, change Fonts, Font size, Colors etc)***
+
 I will update this README as i go along with the project.
 
 **Happy Coding!**

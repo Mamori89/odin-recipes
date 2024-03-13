@@ -1,30 +1,120 @@
-body {
-    background-color: black;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    background-color: rgb(91, 153, 132);
 }
 
 .header {
-    color: aquamarine;
+    font-family: "Whisper", cursive, serif;
+    font-size: 30px;
     text-align: center;
-    font-size: 32px;
-    font-family:'Courier New', Courier, monospace
+    width: 1800px;
+    margin: auto;
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 20px;
 }
 
-.image-container {
+.recipe-nav {
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+.lasagna-image img {
+    opacity: 60%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    height: 300px;
+    width: 430px;
+}
+
+.onepotpasta-image img {
+    opacity: 60%;
+    margin-top: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 500px;
+    width: 480px;
+}
+
+.bakedpotato-image img {
+    opacity: 60%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    height: 300px;
+    width: 430px;
+}
+
+.lasagna-image img:hover,
+.onepotpasta-image img:hover,
+.bakedpotato-image img:hover {
+    transition: all 1s;
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.content-container {
     display: flex;
     justify-content: center;
 }
 
-.overlay_text, ul, a {
-    list-style-type: none;
-    text-decoration: none;
-    color: aquamarine;
-    font-family: 'Courier New', Courier, monospace;
+.image-container {
+    order: 2;
+    margin: auto;
+    padding: 10px;
     text-align: center;
 }
 
-li:hover {
-    background-color: black;
-    opacity: 50%;
-    transition: 0.3s;
-    font-size: 18px;
+.ingredient-box {
+    order: 1;
+    font-family: "Whisper", cursive, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    padding: 50px;
+}
+
+.cooking-steps {
+    order: 3;
+    font-family: "Whisper", cursive, serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+    padding: 50px;
+}
+
+.ingredient-box,
+.cooking-steps {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.ingredient-box,
+.cooking-steps {
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.ingredient-box:hover,
+.cooking-steps:hover {
+    transform: scale(1.1);
+}
+
+.recipe-nav img {
+    transition: transform 0.5s ease;
+}
+
+.recipe-nav img:hover {
+    transform: scale(1.1);
+}
+
+.image-container img {
+    transition: transform 0.5s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
 }
