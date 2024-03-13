@@ -6,7 +6,7 @@
 }
 
 .body_text {
-    color: aquamarine;
+    color: black;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@
     width: 1800px;
     margin: auto;
     border-bottom: 2px solid greenyellow;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .recipe-nav {
@@ -68,27 +68,36 @@
 .overlay_text, ul, a {
     list-style-type: none;
     text-decoration: none;
-    color: aquamarine;
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-family: "Whisper", cursive, serif;
     text-align: center;
 }
 
 .ingredient-box {
     order: 1;
     font-family: "Whisper", cursive, serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     margin: auto;
     padding: 50px;
+    text-align: center;
 }
 
 .cooking-steps {
     order: 3;
     font-family: "Whisper", cursive, serif;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
-    margin: auto;
+    margin: 50px auto;
     padding: 50px;
+    text-align: center;
+}
+
+.image-container {
+    order: 2;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .ingredient-box,
@@ -96,10 +105,6 @@
     flex: 1;
     max-width: 400px;
     margin-right: 20px;
-}
-
-.ingredient-box,
-.cooking-steps {
     margin-top: 20px;
     transition: transform 0.5s ease;
 }
